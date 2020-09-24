@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dr Apj Horse Ridding Club </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<script>
+			//Get the button:
+		mybutton = document.getElementById("myBtn");
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+		} else {
+		mybutton.style.display ="none";
+		}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+		</script>
+	</head>
+	<body>
+		<!-- ****************header start *************** -->
+		<div class="header fixed-top bg-transparent" id="topheader">
+			<nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+				<div class="container text-uppercase p-2 ">
+					<img src="images/logo_horse.png" heigh="50px" width="50px">
+					<a class="high navbar-brand font-weight-bold text-white" href="#">  Dr APJ Horse <br>  <span class="low font-weight-normal">Ridding Club</span></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse " id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto text-uppercase ">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#Info1">About</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Features
+								</a>
+								<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+									
+									<a class="dropdown-item" href="#extradiv">Courses</a>
+									<a class="dropdown-item" href="#Price">Price</a>
+									<a class="dropdown-item" href="#Staff">Staff</a>
+									<a class="dropdown-item" href="team.html">Team</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Gallary">Gallary</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+							
+						</ul>
+						
+					</form>
+				</div>
+			</div>
+		</nav>
+		
+	</div>
+	
+	<!-- ****************header ends *************** -->
+	<!-- ****************Slider start *************** -->
+	<section>
+		<div class="header-section">
+			<div>
+				<div class="center-div">
+					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="2000">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/Slide1.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption text-center d-sm-block">
+									<h1>Disover The Beauty</h1>
+									<p>of horse ridding! <br></p>
+									<br>
+									<br>
+									<a href="#Price" class="ram1 btn btn-block">Start today</a>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="images/Slide2.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Improve Your Ridding</h1>
+									<p>in a Friendly atmosphere!</p>
+									<br>
+									<br>
+									<a href="#Price" class="ram1 justify-content-center btn btn-block">Start today</a>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="images/Slide3.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Discover the Freedom</h1>
+									<p>of horse ridding!</p>
+									<br>
+									<br>
+									<a href="#Price" class="ram1 btn btn-block ">Start today</a>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ****************Slider Ends *************** -->
+	
+	<!-- ****************Info--1 start *************** -->
+	<section>
+		
+		
+		<div class="Info1"  id="Info1" >
+			<div class="container-fluid m-5">
+				<div class="row ">
+					<div class="col-lg-6 col-md-6 col-12 mt-5 pl-5">
+						<p style="color:#fa6a36; font-weight:bold; padding-left: 0px;" >Welcome dear HappyRider!</p>
+						<h2 style=" padding-left: 0px;">We are fully <a style="color:#fa6a36;">approved by the<br>
+						Horse Society</a> as a professional riding school</h2>
+						<br>
+						<p style="padding-left: 0px; color:#75716f; font-weight:bold; ">If you like nature, picturesque views, beautiful horses and quality time spending, our riding school is the perfect choice to begin your acquaintance with equitation, or to simply enjoy monthly family events at our facility.</p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-12 pl-10">
+						<img src="images/Layer-18.png" alt="Horse_Ridding" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ****************Info--1 Ends *************** -->
+	
+	<!-- ****************cousre start *************** -->
+	<section class="extradiv" >
+		<div class="course m-4" id="extradiv">
+			<h2 class="text-center font-weight-bold">Our Courses</h2>
+			<hr class="w-25 mx-auto pt-1">
+		</div>
+		<div class="container-fluid mt-5">
+			<div class="row ">
+				
+				<div class="col-lg-3 col-md-3 col-12">
+					<div class="card" style="width: 18rem;">
+						<img src="images/CO1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Special Courses</h5>
+							<hr>
+							<p class="card-text font-weight-normal" style="font-size: 1rem">For students with physical or intellectual disabilities, based on adaptive sport programme and enjoy learning.</p>
+							<a href="http://localhost/Apj%20Horse/userlaccounts/login.php" class="ram btn btn-block  text-uppercase ">More</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-12">
+					<div class="card" style="width: 18rem;">
+						<img src="images/CO-2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Private Lessons</h5>
+							<hr>
+							<p class="card-text font-weight-bold">Individual approach is very important during learning process. Apply for Private Lessons.</p>
+							<a href="http://localhost/Apj%20Horse/userlaccounts/login.php" class="ram btn btn-block  text-uppercase ">More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-12">
+					<div class="card" style="width: 18rem;">
+						<img src="images/co31.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Group Lessons</h5>
+							<hr>
+							<p class="card-text font-weight-bold">Indoor/outdoor lessons with experienced trainers for beginners or advanced riders of any age.</p>
+							<a href="http://localhost/Apj%20Horse/userlaccounts/login.php" class="ram btn btn-block  text-uppercase ">More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-12">
+					<div class="card" style="width: 18rem;">
+						<img src="images/CO4.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title font-weight-bold">Term Riding</h5>
+							<hr>
+							<p class="card-text font-weight-bold">Feel the joy of riding during our riding terms. Hurry to book your terms beforehand via this site and get discount.</p>
+							<a href="http://localhost/Apj%20Horse/userlaccounts/login.php" class="ram btn btn-block  text-uppercase ">More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	<!-- ****************Course Ends *************** -->
+	
+	<!-- ****************imagebg start *************** -->
+	<section>
+		<div class="imagebg w-100 h-100 mt-4">
+			<img src="images/finalbg.png"  alt="..."   width="100%" >
+		</div>
+	</section>
+	<!-- ****************imagebg ends *************** -->
+	<!-- ****************Testimonial start *************** -->
+	<!-- ****************Testimonial ends *************** -->
+	<!-- ****************Gallery start *************** -->
+	<section id="Gallary">
+		<div class="Gallery container-fluid" >
+			<h2 class="text-center pt-5 text-capitalize font-weight-bold">Gallery</h2>
+			<hr class="w-25 mx-auto pt-5">
+			<div class="row">
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO1.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO-2.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO4.jpg" class="img-fluid">
+				</div>
+				<div class="images/1_full.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO4.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO-2.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-4 col-md-2 col-12 mb-4">
+					<img src="images/CO1.jpg" class="img-fluid">
+				</div>
+				
+				<a href="useraccounts/login.php" class="container ram mb-3  btn btn-block  text-uppercase">See More</a>
+				
+			</div>
+		</section>
+		<!-- ****************header start *************** -->
+		
+		
+		<!-- ****************price start *************** -->
+		<section class="pricing py-5"id="Price" >
+			<div class="Price container mt-5" >
+				<h1 class="text-center font-weight-bold stext-capitalize text-light">Our Prices</h1>
+				<hr class="w-25 mx-auto pt-1">
+				<div class="row">
+					<!-- term Tier -->
+					<div class="col-lg-3 col-md-3 col-12">
+						<div class="card mb-5 mb-lg-0">
+							<div class="card-body">
+								<h5 class="card-title text-muted text-uppercase text-center">Term Riding</h5>
+								<h6 class="card-price text-center">&#x20B9 1599<span class="period">/lesson</span></h6>
+								<hr>
+								<ul class="fa-ul">
+									<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Eastern Style</strong></li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Safety Rules</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Regulations</li>
+									
+								</ul>
+								<a href="https://imojo.in/4i3hhlm" target="_blank" class="ram btn btn-block  text-uppercase">Book</a>
+							</div>
+						</div>
+					</div>
+					<!-- Group Tier -->
+					<div class="col-lg-3 col-md-3 col-12">
+						<div class="card mb-5 mb-lg-0">
+							<div class="card-body">
+								<h5 class="card-title text-muted text-uppercase text-center">Group Lessons</h5>
+								<h6 class="card-price text-center">&#x20B9 2599<span class="period">/lesson</span></h6>
+								<hr>
+								<ul class="fa-ul">
+									<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Western Style</strong></li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Introductory</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Trail Riding</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Regulations</li>
+									
+								</ul>
+								<a href="https://imojo.in/209hsp" target="_blank" class="ram btn btn-block  text-uppercase">Book</a>
+							</div>
+						</div>
+					</div>
+					<!-- Private Tier -->
+					<div class="col-lg-3 col-md-3 col-12">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title text-muted text-uppercase text-center">Private Lessons</h5>
+								<h6 class="card-price text-center">&#x20B9 3599<span class="period">/lesson</span></h6>
+								<hr>
+								<ul class="fa-ul">
+									<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Polo Lessons</strong></li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Advanced</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Summer Show</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Regulations</li>
+									
+								</ul>
+								<a href="https://imojo.in/1cg5li" target="_blank" class="ram btn btn-block  text-uppercase">Book</a>
+							</div>
+						</div>
+					</div>
+					<!-- Special Tier -->
+					<div class="col-lg-3 col-md-3 col-12">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title text-muted text-uppercase text-center">Special Courses</h5>
+								<h6 class="card-price text-center">&#x20B9 5599<span class="period">/lesson</span></h6>
+								<hr>
+								<ul class="fa-ul">
+									<li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Trail Riding</strong></li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Dressage</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Intermediate</li>
+									<li><span class="fa-li"><i class="fas fa-check"></i></span>Regulations</li>
+									
+								</ul>
+								<a href="https://imojo.in/46crq2t" target="_blank" class="ram btn btn-block  text-uppercase">Book</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ****************price ends *************** -->
+			
+			<!-- ****************staff ends *************** -->
+			<!-- Section: Testimonials v.1 -->
+			<section class="text-center my-5 p-1">
+				<div class="Staff container-fluid" id="Staff">
+					
+					
+					<!-- Section heading -->
+					<h2 class="h1-responsive font-weight-bold ">Our Staff</h2>
+					<!-- Section description -->
+					<hr class="w-25 mx-auto pt-1">
+					<div class="row">
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+							<!--Card-->
+							<div class="card testimonial-card">
+								<!--Background color-->
+								<div class="card-up info-color"></div>
+								<!--Avatar-->
+								<div class="avatar mx-auto white">
+									<img src="images/3_foot.jpg" class="rounded-circle img-fluid">
+								</div>
+								<div class="card-body">
+									<!--Name-->
+									<h4 class="font-weight-bold mb-4">John Doe</h4>
+									<hr>
+									<!--Quotation-->
+									<p class="dark-grey-text mt-4" style="font-weight:bold ;color:#fa6a36"><i class="fas fa-quote-left pr-2"></i>Trainer, co-founder</p>
+								</div>
+							</div>
+							<!--Card-->
+						</div>
+						<!--Grid column-->
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+							<!--Card-->
+							<div class="card testimonial-card">
+								<!--Background color-->
+								<div class="card-up blue-gradient">
+								</div>
+								<!--Avatar-->
+								<div class="avatar mx-auto white">
+									<img src="images/2_foot.jpg" class="rounded-circle img-fluid">
+								</div>
+								<div class="card-body">
+									<!--Name-->
+									<h4 class="font-weight-bold mb-4">Anna Aston</h4>
+									<hr>
+									<!--Quotation-->
+									<p class="dark-grey-text mt-4" style="font-weight:bold ;color:#fa6a36"><i class="fas fa-quote-left pr-2"></i>Trainer</p>
+								</div>
+							</div>
+							<!--Card-->
+						</div>
+						<!--Grid column-->
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-6">
+							<!--Card-->
+							<div class="card testimonial-card">
+								<!--Background color-->
+								<div class="card-up indigo"></div>
+								<!--Avatar-->
+								<div class="avatar mx-auto white">
+									<img src="images/1_foot.jpg" class="rounded-circle img-fluid">
+								</div>
+								<div class="card-body">
+									<!--Name-->
+									<h4 class="font-weight-bold mb-4">Maria Kate</h4>
+									<hr>
+									<!--Quotation-->
+									<p class="dark-grey-text mt-4" style="font-weight:bold ;color:#fa6a36" ><i class="fas fa-quote-left pr-2"></i>Trainer, co-founder</p>
+								</div>
+							</div>
+							<!--Card-->
+						</div>
+						<!--Grid column-->
+					</div>
+					<!-- Grid row -->
+				</div>
+			</section>
+			<!-- Section: Testimonials v.1 -->
+			<!-- ****************staff ends *************** -->
+			<!-- ****************maps starts *************** -->
+			<div class="container" style=" background-color:#FFFBF6">
+				<h2 class="text-center font-weight-bold">Contact Address</h2>
+				<hr>
+				<div class="row">
+					<div class="col-sm-8">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="col-sm-4" id="contact2">
+						<h3>Contact Us</h3>
+						<hr align="left" width="50%">
+						<h4 class="pt-2">Contact</h4>
+						<i class="fas fa-globe" style="color:#75716f"></i> <a style="text-decoration: none; color:#fa6a36">Vadodara</a><br>
+						<h4 class="pt-2">Numbers</h4>
+						<i class="fas fa-phone" style="color:#75716f"></i> <a href="tel:+" style="text-decoration: none; color:#fa6a36"> 9876543210 </a><br>
+						<i class="fab fa-whatsapp" style="color:#75716f"></i><a href="tel:+"style="text-decoration: none; color:#fa6a36"> 9876543210 </a><br>
+						<h4 class="pt-2">Email</h4>
+						<i class="fa fa-envelope"style="color:#75716f"></i> <a href=""style="text-decoration: none; color:#fa6a36">test@test.com</a><br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		
+		<!-- ****************staff ends *************** -->
+		
+		<!-- ****************footer starts *************** -->
+		<div class="foot container-fluid justify-content-center px-0 mb-0 ">
+			<div class="card py-5 border-0 px-0 mx-0">
+				<div class="card-body text-center">
+					<div class="row justify-content-center">
+						<div class="col-auto">
+							<div class="row justify-content-center">
+								<div class="col-10  m-2">
+									<a href="http://localhost/Apj%20Horse/userlaccounts/login.php" class="ram btn btn-block  text-uppercase ">Log in / Sign Up</a>
+									<h6 class="p-2"> <b>100% Money Back Guarantee</b></h6> <small class="text-muted">If you'r not satsified for any reason, we'll refund your money</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="row justify-content-around mb-0 pt-5 mx-4">
+					<div class="col-xl-2 col-md-4 order-xl-1 order-4 mr-xl-0 my-auto">
+						<ul class="list-unstyled mt-md-3 mt-5">
+							<li><img src="images/logo_horse.png" heigh="50px" width="50px">
+								<a class=" high navbar-brand font-weight-bold text-white" href="#">  Dr APJ Horse <br>  <span class="low">Ridding Club</span></a></li>
+								<li class="social"> <span> <i class="fa fa-facebook" aria-hidden="true"></i></span> <span> <i class="fa fa-instagram" aria-hidden="true"></i> </span> <span> <i class="fa fa-twitter" aria-hidden="true"></i> </span> </li>
+							</ul>
+							<ul class="list-unstyled my-xl-4 my-md-3">
+								<li>We are professional riding school!</li>
+							</ul>
+						</div>
+						<div class="col-xl-2 col-md-3 pt-4 order-1">
+							<ul class="list-unstyled">
+								<li class="mt-md-0 mt-4">Our Solution</li>
+								<li>Special Courses </li>
+								<li>Private Lessons</li>
+								<li>Group Lessons</li>
+								<li>Term Riding</li>
+							</ul>
+						</div>
+						
+						<div class="col-xl-auto col-md-3 pt-4 my-sm-0 order-md-3 order-sm-1 ">
+							<ul class="list-unstyled">
+								<li class="mt-md-0 mt-4">Home</li>
+								<li>Features</li>
+								<li>Gallary</li>
+								<li>About us</li>
+								<li>Contact us</li>
+							</ul>
+						</div>
+						<div class="col-xl-auto col-md-6 col-12 pt-4 my-sm-0 order-6 ">
+							<div class="form-group "><label for="email" class="mb-3"><b>Subscribe to our newsletter and Get 10% off</b></label><input type="email" class="form-control form-control-lg" placeholder="Enter email" id="email"></div>
+							<a href="#" class="ram btn btn-block  text-uppercase">Subscribe</a>
+						</div>
+					</div>
+					
+					<div class="mt-5 ml-5 mb-0 font-weight-bold text-center" style="color:#fa6a36" >
+						<p>Made with Love by Sarvesh,Nirmal and Avani
+						<br> copyright@2020</p>
+					<!-- </div>
+					<div class="scrolltop float-right "> -->
+						<i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+					</div>
+				
+		 </footer>
+		</div>
+	<!-- ****************footer ends *************** -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
